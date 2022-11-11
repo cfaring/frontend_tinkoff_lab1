@@ -1,0 +1,29 @@
+.container {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  @media @desktop-lg-min {
+    width: 1104px;
+  }
+
+  @media @desktop-min {
+    width: 1000px;
+  }
+
+  @media @tablet {
+    // TODO: примерная ширина, можно взять свою
+    max-width: 768px;
+    width: 608px;
+    padding: 0 8px;
+  }
+
+  @media @mobile {
+    // TODO: примерная ширина, можно взять свою
+    width: 100%;
+    padding: 0 4px;
+  }
+}
