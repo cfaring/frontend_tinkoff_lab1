@@ -1,7 +1,11 @@
 .button {
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 64px;
     padding: 16px 36px;
     background: none;
     border: none;
@@ -11,4 +15,13 @@
     outline: inherit;
     background-color: var(--primary);
     border-radius: var(--radius-s);
+    &:hover {
+      background: #FCC521;
+    }
+    &:active {
+      background: #FAB619;
+    }
+    &:focus {
+      border: 2px solid rgba(51, 51, 51, 0.48);
+    }
   }

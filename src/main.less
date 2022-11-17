@@ -41,7 +41,7 @@ h4{
   }
 }
 
-.container_spisok {
+.container_list {
   margin-top: 48px;
   display: flex;
   flex-direction: row;
@@ -81,15 +81,16 @@ h4{
    flex-direction: column;
    align-items: flex-start;
    justify-content: flex-start;
+
+   &--info{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-position: outside;
+   }
  }
 
-.text-list--info {
-  padding-left: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  list-style-position: outside;
-}
 .enum-row::marker {
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='6' fill='none'%3E%3Crect width='12' height='2' rx='1' fill='%23000' fill-opacity='.8'/%3E%3C/svg%3E");
 }
